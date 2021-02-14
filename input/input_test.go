@@ -127,6 +127,7 @@ func TestReadString(t *testing.T) {
 		{"±!@#$%^&*()_+"},
 		{"àäæęūį"},
 		{"aaa\tbbb"},
+		{"😬😳👍🏼😎"},
 	}
 
 	for _, test := range testInputs {
